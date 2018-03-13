@@ -1,0 +1,18 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="ua.itatool.view.Settings$SortingPreferenceFragment"
+        android:icon="@drawable/ic_format_list_bulleted_black_24dp"
+        android:title="@string/pref_header_sorting"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+    <header
+        android:fragment="ua.itatool.view.Settings$DataSyncPreferenceFragment"
+        android:icon="@drawable/ic_sync_black_24dp"
+        android:title="@string/pref_header_data_sync"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+</preference-headers>
